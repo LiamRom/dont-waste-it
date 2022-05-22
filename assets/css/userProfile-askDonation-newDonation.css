@@ -1,0 +1,260 @@
+
+textarea{
+    margin-bottom: 1rem;
+}
+
+
+
+.messages{
+  margin: auto;
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+
+.alert {
+  padding: 15px;
+  margin-top: 0px;
+  width: 100%;
+  margin: auto;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  display:block;
+}
+
+
+.modal-win {
+  position: relative;
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto;
+direction: RTL;
+
+}
+
+@media (max-width:400px){
+  .modal-win{
+    width: 80%;
+
+  }
+}
+
+@media (max-width:800px){
+    .modal-win{
+      width: 85%;
+  }
+ 
+}
+
+.modal-content {
+  position: relative;
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  outline: none;
+  margin-top: 5%;
+  -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  background-clip: padding-box;
+}
+
+.modal-body {
+  position: relative;
+  padding: 20px;
+  background-color: #f0eaea10; 
+}
+
+.form-control {
+  height: 40px !important;
+  background-color: rgba(0, 0, 0, 0.09) !important;
+}
+
+.form-big {
+    height: 46px !important;
+}
+
+
+select{
+    height: 46px !important;
+    color: #555555 !important;
+}
+
+.hideDistanceDisplay {
+  display: none;
+}
+
+
+.btn {
+  display: inline-block;
+  padding: 6px 12px ;
+  font-size: 18px;
+  line-height: 1.428571429;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+       -o-user-select: none;
+          user-select: none;
+}
+
+.btn:focus {
+  outline: thin dotted #333;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+.btn:active,
+.btn.active {
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+          box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+
+
+.btn-info{
+    background-color: #5BBBBC;
+    border-color: #5BBBBC;
+    color: #FFFFFF;
+    display: block;
+    padding: 10px 45px;
+    margin: auto;
+    font-size:17px;
+}
+
+.context-menu 
+{
+    background-color:  #ffd11a;
+display: inline-block;
+  padding: 6px 12px ;
+  font-size: 18px;
+  line-height: 1.428571429;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  border: 0px solid transparent;
+  border-radius: 4px;
+  
+}
+
+
+
+
+.row{
+  padding-right: 1%;
+}
+
+.mb-0{
+  font-weight: 550;
+}
+
+.user-info{
+  padding-right: 1%;
+}
+
+.pic{
+  height: 100px;
+   width:  100px;
+   border-radius: 5px;
+  object-fit: cover;
+
+}
+
+.picInProfile{
+    height: 180px;
+    width:  180px;
+}
+
+ @media (max-width:1000px){
+    .picInProfile{
+        height: 150px;
+        width:  150px;
+         margin-left: 25%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+  }
+  .btn-info{
+          font-size:15px;
+          margin: auto;
+
+  }
+  .modal-win{
+          margin-bottom:5%
+  }
+}
+
+.user-edit{
+    margin-top:4%;
+    display: block;
+    width: 95px;
+}
+
+.user-edit2{
+    margin-top:4%;
+    display: block;
+  width: 150px;
+}
+
+.picShowDonation{
+  height: 280px;
+  width:  280px;
+  object-fit: cover;
+}
+
+
+
+input[type=file]::file-selector-button ,input[type=date]{
+  height: 40px;
+  padding: 6px 12px;
+  font-size: 16px;
+  line-height: 1.428571429;
+  color: #555555;
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+  background-color: rgba(0, 0, 0, 0.09);
+  box-shadow: 0 1px 0px 0px rgba(0, 0, 0, 0.09) inset;
+  text-align: right;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+          transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+
+input[type=file]::file-selector-button:hover {
+  background-color:  #f2f2f2;
+  border: 2px solid  #999999;
+}
+
+@media (max-width:1000px){
+  .picShowDonation{
+    height: 250px;
+    width:  250px;
+    margin-top: 8%;
+    margin-left: 25%;
+}
+}
+
+@media (max-width:500px){
+  .picShowDonation{
+    height: 200px;
+    width:  200px;
+    margin-left: 15%;
+}
+}
+
+@media (max-width:300px){
+  .picShowDonation{
+  margin-left: 10%;
+}
+}
+
+
+
+
+

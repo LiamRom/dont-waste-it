@@ -1,0 +1,401 @@
+  
+#centerText{
+    text-align: center;
+   
+}
+.rightText{
+    text-align: right;
+}
+
+p{
+
+    margin: 0px;
+}
+
+
+.right{
+    float: right;
+
+}
+
+.left{
+    float: left;
+
+}
+
+
+.pic{
+    height: 180px;
+     width:  180px;
+     border-radius: 5px;
+    object-fit: cover;
+  
+}
+
+.button{
+    background-color: #65b9bb;
+    color: white;
+    float: right;
+    border-radius:30px;
+    padding: .375rem .75rem;
+    margin-right: 2%;
+    border: 3px solid #65b9bb;
+    margin-top: 1%;
+    width: 140px;
+
+}
+
+
+.button:hover {
+    background-color: rgb(180 200 198);
+    border: 3px solid rgb(180 200 198);
+}
+
+
+#destination{
+    background-color: #65b9bb;
+}
+
+.post:hover {
+     background-color: rgb(180 200 198);
+}
+
+
+#upBtn{
+    display: none; 
+    position: fixed; 
+    bottom: 20px; 
+    right: 45px; 
+    z-index: 99; 
+    cursor: pointer; 
+    height: 10%;
+
+}
+
+#upBtn:hover {
+    height: 12%; 
+  }
+
+.donationNum{
+    display: none;
+}
+
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.428571429;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+       -o-user-select: none;
+          user-select: none;
+}
+
+.btn-feed{
+    background-color: #5BBBBC;
+    border-color: #5BBBBC;
+    color: #FFFFFF;
+    display: block;
+    padding: 8px 20px;
+    margin: auto;
+}
+
+
+.btn-feed:hover{
+ background-color: #5bbabcda;
+}
+
+
+.btn:focus {
+  outline: thin dotted #333;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+.btn:active,
+.btn.active {
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+          box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+
+.modal-body {
+  position: relative;
+}
+
+#postShow:hover {
+    background-color: rgba(180, 200, 198, 0.277);
+    cursor: pointer;
+}
+
+.picInFeed{
+     height: 40px;
+    width:  40px;
+    border-radius: 50px
+}
+
+.iconInPost{
+    height: 22px;
+    width:  22px;
+    opacity:0.5;
+}
+
+
+.button_plus {
+  width: 55px;
+  height: 55px;
+  background: #5BBBBC;
+  cursor: pointer;
+  border: 2px solid #5BBBBC;
+  border-radius: 50px;
+    position: fixed; 
+    bottom: 40px; 
+    left: 45px; 
+    z-index: 99; 
+}
+
+.button_plus:after {
+  content: '';
+  position: absolute;
+  transform: translate(-50%, -50%);
+  height: 4px;
+  width: 50%;
+  background: white;
+  top: 50%;
+  left: 50%;
+}
+
+.button_plus:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  height: 50%;
+  width: 4px;
+}
+
+.sortIcon{
+    height: 28px;
+    width:  28px;
+    opacity:0.5;
+    margin-left: 7px;
+    margin-bottom: 5px;
+}
+
+.sort-buttons{
+   height: 80px;
+  position: relative;
+  width: 100%;
+  display: block;
+  margin: auto
+}
+
+.btn-sort{
+    padding: 8px;
+    border: 2px solid rgb(180 200 198);
+    border-radius: 6px;
+    color: rgb(98, 92, 92);
+    width: 280px;
+}
+
+.btn-sort:focus {
+  box-shadow: none !important;
+    background-color: rgb(180 200 198);
+  outline: 1px solid rgba(128, 128, 128, 0.319);
+}
+
+.searchLine{
+    display: block;
+    margin: auto;
+    width: 600px;
+}
+
+
+#current_address{
+    text-align: right;
+    border-radius: 30px;
+    border: 3px #65b9bb solid;
+    height: 45px;
+    background-color: white;
+    margin-left: 5px;
+    direction: rtl;
+}
+
+@media screen and (max-width: 400px)
+ {
+    .searchLine{
+        width: 290px;
+    }
+}
+
+@media  screen and (max-width: 455px) and (min-width: 400px)
+ {
+    .searchLine{
+        width: 370px;
+    }
+}
+
+@media  screen and (max-width: 560px) and (min-width: 455px)
+ {
+    .searchLine{
+        width: 400px;
+    }
+}
+
+
+@media screen and (max-width: 650px) and (min-width: 560px)
+ {
+    .searchLine{
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 583px)
+ {
+   .sort-buttons{
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 875px) and (min-width: 583px)
+ {
+    .sort-buttons{
+        height: 120px;
+    }
+}
+
+@media screen and (max-width: 865px) and (min-width: 581px)
+ {
+    #sortByTime{
+        margin-top: 1%;
+    }
+}
+
+.modal-win {
+    width: 65%;
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  direction: RTL;
+  margin-top: 3px;
+}
+
+.modal-content {
+     width: 100%;
+  position: relative;
+  border: none;
+}
+
+.post{
+    display: block;
+    margin: auto;
+    height: 28%;
+    width: 100%;
+    border-radius: 20px;
+    border: 3px solid rgb(180 200 198);
+    margin-bottom: 1%;
+    padding: 15px;
+    direction: RTL;
+}
+
+@media screen and (max-width: 400px)
+ {
+    .modal-win{
+        width: 95%;
+    }
+     .pic {
+        height: 130px;
+        width:  130px;
+     }
+     .post{
+         padding-left: 0px;
+         padding-right: 0px;
+     }
+     .inPost{
+         width: 50%;
+     }
+ } 
+ 
+ @media screen and (max-width: 450px) and (min-width: 400px)
+ {
+    .modal-win{
+        width: 90%;
+    }
+     .pic {
+        height: 140px;
+        width:  140px;
+     }
+     .inPost{
+         width: 50%;
+     }
+     
+
+ } 
+ 
+  @media screen and (max-width: 550px) and (min-width: 450px)
+ {
+    .modal-win{
+        width: 90%;
+    }
+     .pic {
+        height: 150px;
+        width:  150px;
+     }
+     .inPost{
+         width: 50%;
+     }
+ } 
+ 
+   @media screen and (max-width: 600px) and (min-width: 550px)
+ {
+    .modal-win{
+        width: 80%;
+    }
+     .pic {
+        height: 160px;
+        width:  160px;
+     }
+     .inPost{
+         width: 50%;
+     }
+ } 
+ 
+    @media screen and (max-width: 1007px) and (min-width: 600px)
+ {
+    .modal-win{
+        width: 75%;
+    }
+     .pic {
+        height: 160px;
+        width:  160px;
+     }
+     .inPost{
+         width: 50%;
+     }
+ }
+ 
+    @media screen and (max-width: 670px) and (min-width: 0px)
+ {
+    .distanceAndTime{
+        margin-right: 0.5px;
+     }
+
+    .time{
+        margin-right: 1px;
+    }
+ } 
+
+
+ 

@@ -1,0 +1,93 @@
+
+.banner{
+    height: 190px;
+    width: 100%;
+}
+
+.center{
+   display: block;
+   margin: auto;
+}
+
+.centerTxt{
+    text-align: center;
+ }
+
+#logo{
+    border-radius: 50%;
+    height: 110px;
+    width: 210px;
+}
+
+nav{
+    text-align: right;
+    font-weight: bold;
+}
+
+.clear{
+    clear: both;
+}
+
+.bg-secondary {
+    background-color: white !important;
+    color: black !important;
+    width: 100%;
+}
+
+.banner-bg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/header/bg.png");
+    height: 100%;
+    width: 100%;
+}
+
+.banner-text{
+  height: 200px;
+  position: relative;
+}
+
+.banner-img{
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.picInNav{
+    height: 50px;
+    width:  50px;
+}
+
+.picInNavBell{
+    opacity:0.5;
+    margin-top:12px;
+    cursor: pointer;
+}
+
+@media (max-width:900px){
+    .picInNavBell{
+        margin-top: 0px;
+
+  }
+}
+
+@media (max-width:991px){
+.dropdown-menu{
+    text-align: right !important;
+}
+}
+
+.badge{
+    background-color: #e9183b5c;
+     border: 1px solid transparent;
+    border-radius: 50px;
+}
+
+.reverse-order{
+    display: flex;
+  flex-direction: column-reverse;
+  
+}
+
+

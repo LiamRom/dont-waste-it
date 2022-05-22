@@ -1,0 +1,271 @@
+
+/******my requests******/
+.alignName{
+  vertical-align:middle;
+}
+
+.picInMyRequest{
+   height: 30px;
+  width:  30px;
+  border-radius: 50px
+}
+
+
+/******my donations******/
+
+.btn-request{
+    float: left;
+  background-color: #a2b6b4;
+  color: #FFFFFF;
+   margin-top: 1%;
+  margin-left:1%;
+}
+
+.btn-request:hover{
+  background-color: #a2b6b4bb;
+}
+
+.tarsh-image{
+    float: left;
+  height: 27px;
+  width: 25px;
+  margin-left:2%;
+   margin-top: 1.8%;
+}
+
+@media (max-width:550px){
+  .btn-request, .tarsh-image{
+    margin-bottom: 5%;
+}
+}
+
+div.click-to-top span {
+  display: none;
+  position:relative;
+  float: left;
+  padding: 5px;
+  padding-left: 8px;
+  padding-right: 10px;
+  margin-left:2%;
+  margin-top:1.8%;
+  text-align: center;
+  background: rgba(209, 206, 206, 0.842);
+  color: black;
+  border-width: 2px;
+  border-color:rgba(209, 206, 206, 0.842); 
+  border-radius: 25px;
+   box-shadow: 0 1px 0px 0px rgba(0, 0, 0, 0.09) inset;
+   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+          transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+
+@media (min-width:800px){
+div.click-to-top:hover span {
+  display: inline-block;
+  }
+}
+
+#expired-post{
+  opacity: 0.3;
+}
+
+
+/******both******/
+
+.modal-win {
+  position: relative;
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto;
+  direction: RTL;
+}
+
+.modal-content {
+position: relative;
+background-color: #ffffff;
+border: 1px solid rgba(0, 0, 0, 0.2);
+border-radius: 6px;
+outline: none;
+margin-top: 5%;
+-webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+        box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+background-clip: padding-box;
+}
+
+.modal-body {
+padding: 16px 0px;
+position: relative;
+background-color: #f0eaea10; 
+}
+
+@media (max-width:400px){
+.modal-win{
+  width: 90%;
+
+}
+}
+
+@media (max-width:600px) and (min-width: 400px) {
+  .modal-win{
+    width: 80%;
+  }
+}
+
+@media (max-width:800px)and (min-width: 600px) {
+  .modal-win{
+    width: 75%;
+}
+}
+
+
+
+@media (max-width:1000px) and (min-width: 800px) {
+  .modal-win{
+    width: 75%;
+}
+}
+
+@media (max-width:600px){
+.text-cut {
+  display: block;
+  width: 120px;
+  text-align: right;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+}
+
+@media (max-width:550px)  {
+  .published-text{
+   display: block;
+   width: 80%;
+  text-align: left;
+  }
+}
+
+.btn-whatsapp-maps{
+  background-color: #a2b6b4;
+  color: #FFFFFF;
+  display: block;
+  padding: 12px 40px;
+  padding-right: 30px;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.btnInProfile{
+  float: left;
+    padding: 4px 6px;
+  background: none;
+  border: 2px solid #a2b6b4;
+  border-radius: 3px;
+   margin-top: 1%;
+}
+
+
+.whatsapp-maps-image{
+height: 25px;
+width: 25px;
+margin-left: 10px;
+}
+
+.whatsapp-inProfile, .maps-inProfile{
+  height: 28px;
+  width: 28px;
+}
+
+.whatsapp-inProfile{
+   margin-left: 4px;
+}
+
+#postShow:hover {
+  background-color: rgba(180, 200, 198, 0.277);
+  cursor: pointer;
+}
+
+.waiting-pic{
+  height: 100px;
+  width:  100px;
+  display: block;
+  margin: auto;
+}
+
+.status{
+  float: left;
+  font-weight: bold;
+  margin-top: 1%;
+  margin-left:1%;
+  border: 1px solid;
+  border-radius: 3px;
+  padding: 6px 12px;
+}
+
+#orange{
+  color: orange;
+  border-color: orange;
+}
+
+#red{
+  color: red;
+  border-color: red;
+}
+
+#green{
+  color: green;
+  border-color: green;
+  margin-right: 10px;
+}
+
+.pic{
+height: 100px;
+ width:  100px;
+ border-radius: 5px;
+object-fit: cover;
+
+}
+
+.showPosts{
+  padding:0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+
+.form_main {
+  display: none;
+}
+
+
+.messages{
+margin: auto;
+text-align: center;
+margin-bottom: 1%;
+}
+
+
+.alert {
+    padding: 15px;
+    margin-top: 0px;
+    width: 50%;
+    margin: auto;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    display:block;
+}
+
+
+
+
+
+
+
+
+
+
+
+

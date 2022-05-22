@@ -1,0 +1,87 @@
+
+.modal-request {
+  position: relative;
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  direction: RTL;
+}
+
+@media (max-width:650px){
+  .modal-request{
+    width: 85%;
+}
+}
+
+.modal-body {
+position: relative;
+background-color: #f0eaea10; 
+padding: 0px;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+.btn-approve{
+  background-color: rgba(81, 185, 81, 0.612);
+  color: #FFFFFF;
+  margin-left:1%;
+  margin-top: -10px;
+  margin-bottom: 2%;
+}
+
+.btn-approve:hover{
+    background-color: rgba(81, 185, 81, 0.527);
+}
+
+.modal-approved{
+  position: relative;
+  width: 40%;
+  margin-right: auto;
+  margin-left: auto;
+  direction: RTL;
+}
+
+@media (max-width:800px){
+  .modal-approved{
+    width: 85%;
+}
+}
+
+
+.picInrequest{
+   height: 60px;
+  width:  60px;
+
+}
+
+#picInApprove{
+  text-align: center;
+}
+
+.thankYou-Pic, .hungry-pic{
+   height: 100px;
+    width:  100px;
+  display: block;
+    margin: auto;
+}
+
+.waiting-pic{
+  height: 100px;
+  width:  100px;
+  display: block;
+  margin: auto;
+}
+
+@media (max-width:380px){
+  .btn-approve{
+   margin-top: 2%;
+}
+}
+
+@media (max-width:900px){
+  .correspondence{
+    display: block;
+    width: 50%;
+}
+}
+
