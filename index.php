@@ -14,7 +14,7 @@
     <link href="assets/css/feedStyle.css" rel="stylesheet" />
     
 
-    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&key=AIzaSyCf_vrih334Gurzu0HpWI0RzrOIBhZ3_2k&libraries=places"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&key=myKey &libraries=places"></script>
     
     
 
