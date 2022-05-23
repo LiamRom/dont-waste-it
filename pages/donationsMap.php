@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
     <script
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCf_vrih334Gurzu0HpWI0RzrOIBhZ3_2k&callback=initMap&v=weekly"
+      src="https://maps.googleapis.com/maps/api/js?key=myKey&callback=initMap&v=weekly"
       defer></script>
     <script src="../assets/js/mapFunctions.js"> </script>
 
