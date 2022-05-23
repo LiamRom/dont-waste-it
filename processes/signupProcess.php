@@ -7,12 +7,12 @@ if(isset($_POST['submit'])){
 
     include('../config/db.php');
 
-    $firstName =$_POST['firstName'];
-    $lastName = $_POST['lastName'];
-    $phone = $_POST['phone'];
-    $email =$_POST['email'];
-    $password = $_POST['password'];
-    $profilePic = $_POST['profilePic'];
+    $firstName = mysqli_real_escape_string($connection,strip_tags($_POST['firstName']));
+    $lastName = mysqli_real_escape_string($connection,strip_tags($_POST['lastName']));
+    $phone = mysqli_real_escape_string($connection,strip_tags($_POST['phone']));
+    $email = mysqli_real_escape_string($connection,strip_tags($_POST['email']));
+    $password = mysqli_real_escape_string($connection,strip_tags($_POST['password']));
+    $profilePic = mysqli_real_escape_string($connection,strip_tags($_POST['profilePic']));
 
     //first name is empty
     if(empty($_POST['firstName'])){
@@ -54,14 +54,6 @@ if(isset($_POST['submit'])){
             exit;
         }
 
-        $firstName = mysqli_real_escape_string($connection,strip_tags($_POST['firstName']));
-        $lastName = mysqli_real_escape_string($connection,strip_tags($_POST['lastName']));
-        $phone = mysqli_real_escape_string($connection,strip_tags($_POST['phone']));
-        $email = mysqli_real_escape_string($connection,strip_tags($_POST['email']));
-        $password = mysqli_real_escape_string($connection,strip_tags($_POST['password']));
-        $profilePic = mysqli_real_escape_string($connection,strip_tags($_POST['profilePic']));
-
-        
         $sqlCheck = "SELECT * FROM users WHERE email='$email'";
         $result = mysqli_query($connection,$sqlCheck);
 
@@ -95,7 +87,6 @@ if(isset($_POST['submit'])){
             $_SESSION['firstName'] = $firstName;
             
         $sql = "SELECT * FROM users WHERE email='$email'";
-        print_r($sql);
         $result = mysqli_query($connection,$sql);
 
         if (mysqli_num_rows($result) === 1) {
