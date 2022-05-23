@@ -13,7 +13,7 @@
     <link href="assets/css/generalStyle.css" rel="stylesheet" />
     <link href="assets/css/feedStyle.css" rel="stylesheet" />
     
-
+<!-- Pay attention to put a real key of google api -->
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&key=myKey &libraries=places"></script>
     
     
