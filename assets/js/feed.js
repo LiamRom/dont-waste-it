@@ -246,7 +246,7 @@
             }
             }
 
-        // isEmptyAddress() checks if the user insert input or not. if yes it returns true, else false.
+        // isEmptyAddress() checks if the user insert input or not. if yes it returns false, else true.
             function isEmptyAddress () {
                 addressInput=document.getElementById("current_address").value;
                 if(addressInput=="")
