@@ -17,7 +17,7 @@
     <title>Don't waste it-add donation</title>
 
 
-<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&key=myKey&libraries=places"></script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&key=AIzaSyCf_vrih334Gurzu0HpWI0RzrOIBhZ3_2k&libraries=places"></script>
 
 
 <script>
@@ -32,18 +32,12 @@
 
 
 
+    // //   if the lat is not a number the meaning is the address is invalid if the user insert an address.
 
       document.getElementById("latitude").value = place.geometry['location'].lat();
       document.getElementById("longitude").value = place.geometry['location'].lng();
 
-    // //   if the lat is not a number' the meaning is the address is invalid if the user insert an address.
-    //   if((document.getElementById("latitude").value!="") && (document.getElementById("address").value!=""))
-    //   {
-    //         alert("Invalid address");
-    //         console.log("Invalid address");
-
-
-    //   }
+ 
 
 
     
@@ -215,22 +209,11 @@
                         <hr>
                    
 
-                        <!-- <div class="row form-inline">
-                        <h7>כתובת לאיסוף התרומה:</h7>
-
-                            <input class="form-control spacing" type="text" id="city" name="city" placeholder="עיר" >
-                            <input class="form-control spacing" type="text" id="street" name="street" placeholder="רחוב">
-                            <input class="form-control spacing" type="number" id="number" name="number" placeholder="מספר">
-                        </div>
-                        <hr> -->
+                      
 
                          <input type="hidden" id="donationStatus" name="donationStatus" value="0">
 
-                        <!-- ****** -->
-
-
-                        <!-- <div class="row form-inline">
-                        <h7>הקלד את כתובת התרומה:</h7> -->
+                       
                         
                         <!--Automatic completion of address for collection - use of Google's api< -->
                         
