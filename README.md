@@ -1,6 +1,6 @@
 # dont-waste-it
 
-This project is a web whose purpose is to manage excess food.
+This project is a website whose purpose is to manage excess food.
 The platform allows to donate food and request it.
 
 The main processes on the site:
@@ -13,7 +13,7 @@ The main processes on the site:
 
 
 The project contains 3 api of Google:
-* places for autocomplete of address.
+* Places for autocomplete of address.
 * Distance Matrix for calculating of distance and travel time.
 * Maps JavaScript for donations map. 
 
